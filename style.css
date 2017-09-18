@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  }
+
+@font-face {
+    font-family: Avenir;
+    src: url(./fonts/AvenirNextLTPro-Regular.otf);
+}
+nav {
+    background-color: #9B9B8C;
+    border-bottom: 2px solid #686859;
+}
+
+#left-hand {
+    font-family: Avenir;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: #4C0066;
+    margin-top:50%;
+}
+
+.button {
+    font-family: Avenir;
+    font-size: 20px;
+    background-color: #353526;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 40px 5px 40px;
+}
+
+#right-hand {
+    background: url("./resources/NEW_tracks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.album{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-left: 25%;
+    padding: 5px;
+    height: 215px;
+    width: 215px;
+}
+
+footer {
+    font-family: Avenir;
+    background-color: #686859;
+    height: 65px;
+    color: white;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    padding: 2px;
+}
